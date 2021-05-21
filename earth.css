@@ -1,0 +1,18 @@
+.img{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background-image: url(image.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    height: 90%;
+    border-radius: 50%;
+    box-shadow:  inset -20px -20px 50px 2px #000 , 0 0 20px 2px #000;
+    animation: spin 30s linear alternate infinite;
+}
+@keyframes spin{
+    100%{background-position:100%;}
+}
